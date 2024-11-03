@@ -504,7 +504,7 @@ video {
   height: 600px;
 }
 #song .row {
-  background: #000;
+  /* background: #000; */
 }
 
 .st-iconbox-icon >img {

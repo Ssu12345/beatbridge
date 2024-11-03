@@ -219,30 +219,11 @@
     8. Light Gallery
   --------------------------------------------------------------*/
   function lightGallery() {
-    $('.st-lightgallery').each(function () {
-      $(this).lightGallery({
-        selector: '.st-lightbox-item',
-        subHtmlSelectorRelative: false,
-        thumbnail: false,
-        mousewheel: true,
-        video: true,
-        youtubePlayerParams: {
-          modestbranding: 1,
-          showinfo: 0,
-          rel: 0
-        },
-        vimeoPlayerParams: {
-          byline: false,
-          portrait: false,
-          color: '4AACFF'
-        },
-        videoSources: [
-          {
-            src: 'assets/video/song.mp4',
-            type: 'video/mp4'
-          }
-        ]
-      });
+    $('.st-lightgallery').lightGallery({
+      selector: '.st-lightbox-item',
+      subHtmlSelectorRelative: false,
+      thumbnail: false,
+      mousewheel: true
     });
   }
 
